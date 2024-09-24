@@ -1,0 +1,202 @@
+/*@media (max-width: 800px) {
+    body {
+      flex-direction: column;
+    }
+}*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: rgb(30, 30, 30);
+    margin: 1px;
+}
+
+main{
+    background: rgb(30, 30, 30);
+    
+}
+
+header{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav_left{
+display: flex;
+flex-direction: row;
+align-content: center;
+justify-content: flex-start;
+justify-content: space-around;
+margin: 10px;
+gap: 10px; ;
+
+}
+
+.nav_right{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    margin: 10px;
+    gap: 10px;
+}
+
+.logo_google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button_recherche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputSC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 574,400px;
+    height: 36px;
+}
+
+.button_g:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+.button_d:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+.button_g{
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    
+}
+
+.button_d{
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+} 
+
+/*.vide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background: rgb(30, 30, 30);
+    
+}*/
+
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    background: rgb(15, 15, 15);
+}
+.conteneur_footer_1{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteneur_footer_2{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.centre{
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 10px;
+    gap: 10px; ;
+    flex: 20%;
+}
+
+.ligne_g{
+    order: 1;
+    display: flex;
+flex-direction: row;
+align-content: center;
+justify-content: flex-start;
+justify-content: space-around;
+margin: 10px;
+gap: 10px; ;
+flex: 40%;
+
+}
+
+.ligne_d{
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    margin: 10px;
+    gap: 10px;
+    flex: 40%;
+}
+
+
+/*.hr{
+    color: white;
+}*/
+.point{
+display: block;
+background-color: rgb(255, 255, 255);
+width: 4px;
+height: 4px;
+margin: 2px;
+border-radius: 2px;
+
+}
+
+.flex-container {
+    background-color: rgb(30, 30, 30);
+    font-size: 30px;
+}
+
+.P1{
+    order: 4;
+    display: flex;
+    flex-direction: row;
+}
+
+.P2{
+    order: 5;
+    display: flex;
+    flex-direction: row;
+}
+
+.P3{
+    order: 6;
+    display: flex;
+    flex-direction: row;
+}
+

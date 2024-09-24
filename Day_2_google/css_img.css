@@ -1,0 +1,28 @@
+body{
+    background: rgb(30, 30, 30);
+}
+
+.div_img{
+    background: grey;
+    display: flex;
+    flex-wrap: wraps;
+    margin: 50px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    background: rgb(15, 15, 15);
+}
+
+.Retour_google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
